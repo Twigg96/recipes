@@ -66,9 +66,10 @@ p{
     text-align: right;
     position: absolute;
     top: 0; right: 0;
+    
 }
 .homepic{
-    height: 40px;
+    height: 60px;
     width: auto;
 
 }
