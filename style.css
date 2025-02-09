@@ -51,7 +51,7 @@ p{
 
 .smile{
     display: inline-block;
-    height: 25px;
+    height: 30px;
     width: auto;
     margin-bottom: auto;
 }
@@ -67,9 +67,9 @@ p{
     position: absolute;
     top: 0; right: 0;
     
-}
+
 .homepic{
-    height: 60px;
+    height: 80px;
     width: auto;
 
 }
