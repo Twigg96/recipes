@@ -42,7 +42,7 @@ p{
 
 .crest{
     height: 31.25em;
-    width: 31.25em;
+    max-width: auto;
     border-radius: 3.125em;
     margin-left: auto;
     margin-right: auto;
@@ -78,7 +78,8 @@ display: inline-block;
     
 
 .homepic{
-    height: 5em;
+    height: 2em;
+    max-width: fit-content;
     width: auto;
 
 }
@@ -88,13 +89,19 @@ display: inline-block;
     height: 1.875em;
     width: 12.5em;
     margin-top: .625em;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .recipe-input{
     text-align: center;
     height: 25em;
     width: 50em;
+    max-width: fit-content;
     margin-top: 1.875em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .submit{
