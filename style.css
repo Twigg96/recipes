@@ -11,7 +11,9 @@ h1{
 
     color: black;
     text-decoration: underline;
-    max-width: fit-content;
+    max-width: 100%;
+    text-align: center;
+
     
 }
 .mainlinks{
