@@ -66,10 +66,40 @@ display: inline-block;
     text-align: right;
     position: absolute;
     top: 0; right: 0;
+}
+.share{
+    display: inline-block;
+    position: absolute;
+    top: 0; left: 0;
+    text-align: left;
+    text-decoration: none;
+
+}
     
 
 .homepic{
     height: 80px;
     width: auto;
 
+}
+
+.contact-input{
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.recipe-input{
+    text-align: center;
+    height: 400px;
+    width: 800px;
+    margin-top: 30px;
+}
+
+.submit{
+    text-align: center;
+    margin-top: 50px;
+    height: 30px;
+    width: auto;
 }
