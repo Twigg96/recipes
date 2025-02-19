@@ -1,15 +1,15 @@
 body{
 
     text-align: center;
-    color: black;
-    background-color: rgba(236,214,140,255);
-    font: century;
+    color: rgb 777;
+    background-color: #cccccc;
+    background-image: url(images/bg2.png);
 }
 
 
 h1{
 
-    color: black;
+    color: rgb 777;
     text-decoration: underline;
     max-width: 100%;
     text-align: center;
@@ -19,6 +19,7 @@ h1{
 .mainlinks{
     margin: auto;
     display: block;
+    text-decoration: none;
 }
 
 
@@ -47,12 +48,12 @@ p{
 
 
 .crest{
-    height: 31.25rem;
-    max-width: fit-content;
-    border-radius: 3.125rem;
+    height: auto;
+    width: 40vw;
+    border-radius: 2rem;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: inline-block
 }
 
 .smile{
@@ -77,10 +78,13 @@ display: inline-block;
     display: inline-block;
     position: absolute;
     top: 0; left: 0;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
-    max-width: fit-content;
+    width: 15vw;
     height: auto;
+    white-space: normal;
+    border: .001rem solid;
+    
 
 }
     
@@ -110,6 +114,7 @@ display: inline-block;
     margin-top: 1.875rem;
     margin-left: auto;
     margin-right: auto;
+    display: inline-block;
 }
 
 .submit{
@@ -119,3 +124,4 @@ display: inline-block;
     max-width: fit-content;
     font-size: small;
 }
+
