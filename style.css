@@ -7,6 +7,7 @@ html{
 body{
     text-align: center;
     color: rgb 777;
+    
    
 }
 
@@ -129,3 +130,12 @@ display: inline-block;
     font-size: small;
 }
 
+@media (min-width: 600px) {
+    html {
+        background: url(images/bg2.png) no-repeat center center fixed; 
+        background-size: cover;
+    }
+    .html-mobile-background {
+        display: none;
+    }
+}
