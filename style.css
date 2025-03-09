@@ -49,7 +49,7 @@ p{
 
 .crest{
     height: auto;
-    width: 40vw;
+    max-width: 40vw;
     border-radius: 2rem;
     margin-left: auto;
     margin-right: auto;
