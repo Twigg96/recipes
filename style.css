@@ -6,6 +6,7 @@ body{
     background-color: rgb(222,199,138);
     background-size: cover;
     min-height:100%;
+    text-align: center;
 }
 ul{
     text-align: center;
@@ -62,11 +63,12 @@ p{
 
 .crest{
     height: auto;
-    max-width: 40vw;
+    max-width: 100%;
     border-radius: 2rem;
     margin-left: auto;
     margin-right: auto;
-    display: inline-block
+    display: inline-block;
+
 }
 
 .smile{
