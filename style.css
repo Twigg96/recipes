@@ -59,7 +59,8 @@ h2,label,textarea,button,input{
 }
 
 p{
-    text-align: center;
+    margin-left: 10vw;
+    text-align: left;
     font-size: 1.2rem;
 
 }
